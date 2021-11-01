@@ -1,4 +1,4 @@
-FROM python
+FROM python:latest
 WORKDIR /opt/demo/
 COPY requirements.txt /opt/demo
 COPY tiny_app.py /opt/demo
